@@ -1,0 +1,25 @@
+views:
+  - title: Home
+    path: home
+    cards:
+      - type: entities
+        title: Lichten
+        entities:
+          - entity: light.living_room
+            name: Woonkamer Licht
+            type: custom:slider-entity-row
+            full_row: true
+            min: 0
+            max: 255
+            step: 1
+            mode: slider
+            toggle: true
+          - entity: light.kitchen
+            name: Keuken Licht
+            type: custom:slider-entity-row
+            full_row: true
+            min: 0
+            max: 255
+            step: 1
+            mode: slider
+            toggle: true
